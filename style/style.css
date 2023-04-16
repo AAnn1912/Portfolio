@@ -143,6 +143,20 @@ body {
     animation-delay: 1s, 2s;
 }
 
+.wrapper_img {
+    border-radius: 50% 50% /50% 0%;
+    box-shadow: 0 8px 24px rgba(17, 17, 26, .1), 0 16px 56px rgba(237, 237, 241, 0.1), 0 24px 80px rgba(197, 197, 225, 0.1);
+    grid-area: avatar;
+    height: 250px;
+    overflow: hidden;
+    width: 250px;
+    margin-left: 25%;
+}
+
+.wrapper_img img {
+    margin-top: -5%;
+}
+
 .home-img::after {
     content: "";
     position: absolute;
